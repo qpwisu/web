@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My start page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="col-md-10 container">
+
+    <div class="item">
+      <div class="container2">
+        <a href="http://www.google.com" class="alink itemtwo1" itemthird1>
+          <h1 class="itemthird1">
+            <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+          </h1>
+        </a>
+        <form action="https://www.google.com/search" method="GET" class=" itemtwo2">
+          <div class="input-group mb-3">
+            <input name="q" type="text" class="form-control rounded-pill" placeholder="google 검색" aria-label="Recipient's username" aria-describedby="button-addon2">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="container2">
+        <a href="http://www.naver.com" class="alink itemtwo1">
+          <img class="naverpicture" src="naver.png">
+          <!-- 이미지 넣기 연습 -->
+        </a>
+        <!-- <form name=fsearch method=get style="margin:0px;" action="http://search.naver.com/search.naver" target="_blank">
+        <input type=hidden name=where value="nexteach">
+        <input name=query itemname="검색어" required value="" size="33" placeholder="네이버검색창">
+        <input type=image src="네이버로고혹은검색이미지주소를 넣으세요^^" width='60' height='20' border=0 align=absmiddle>
+        </form> -->
+        <form class="itemtwo2" action="http://search.naver.com/search.naver" method="GET">
+          <div class="input-group mb-3">
+            <input name="query" type="text" class="form-control rounded-pill" placeholder="naver 검색" aria-label="Recipient's username" aria-describedby="button-addon2" required value="">
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="container2">
+        <a href="http://www.daum.net" class="alink itemtwo1">
+          <h1 class="itemthird3">
+            <span>D</span><span>a</span><span>u</span><span>m</span>
+          </h1>
+        </a>
+        <form  class="itemtwo2" name=fsearch method=get style="margin:0px;" action="http://search.daum.net/search" target="_blank">
+          <div class="input-group mb-3">
+            <input name="q" type="text" class="form-control rounded-pill" placeholder="daum 검색" aria-label="Recipient's username" aria-describedby="button-addon2" required value="">
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="container2">
+        <a href="http://www.youtube.com" class="alink itemtwo1">
+          <h1 class="itemthird4">
+            YouTube
+          </h1>
+        </a>
+        <form action="https://www.google.com/search" method="DET" class="itemtwo2">
+          <div class="input-group mb-3">
+            <input name="q" type="text" class="form-control rounded-pill" placeholder="youtube 검색" aria-label="Recipient's username" aria-describedby="button-addon2">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!-- 미리보기 컨트롤 시프트 h -->
+<!-- https://hongku.tistory.com/308
+ -->
